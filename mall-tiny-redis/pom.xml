@@ -7,12 +7,12 @@
         <groupId>com.lzy</groupId>
         <artifactId>mall-learning</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.lzy</groupId>
-    <artifactId>mall-tiny-generator</artifactId>
+    <artifactId>mall-tiny-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
 
     <dependencies>
         <!--SpringBoot通用依赖模块-->
@@ -74,6 +74,11 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
             <version>${springdoc-swagger.version}</version>
+        </dependency>
+        <!--redis依赖配置-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
     </dependencies>
 
