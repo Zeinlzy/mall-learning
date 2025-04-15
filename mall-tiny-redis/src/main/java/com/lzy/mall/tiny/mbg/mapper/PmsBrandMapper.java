@@ -3,10 +3,8 @@ package com.lzy.mall.tiny.mbg.mapper;
 import com.lzy.mall.tiny.mbg.model.PmsBrand;
 import com.lzy.mall.tiny.mbg.model.PmsBrandExample;
 import java.util.List;
-
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-@Mapper
+
 public interface PmsBrandMapper {
     long countByExample(PmsBrandExample example);
 
