@@ -40,6 +40,9 @@
         <springdoc-swagger.version>2.5.0</springdoc-swagger.version>
         <!--日志-->
         <logstash-logback.version>7.2</logstash-logback.version>
+        <!--安全认证相关-->
+        <JJWT.version>0.11.5</JJWT.version>
+        <jakarta.version>2.1.1</jakarta.version>
     </properties>
     <dependencies>
         <dependency>
